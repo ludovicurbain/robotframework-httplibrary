@@ -62,8 +62,8 @@ Development
 If you want to hack on this library itself, this should get you started::
 
   # bootstrap development environment
-  git clone https://github.com/peritus/robotframework-httplibrary.git
-  cd robotframework-httplibrary/
+  git clone https://github.com/ludovicurbain/robotframework-httplibrary3.git
+  cd robotframework-httplibrary3/
   python bootstrap.py
   ./bin/buildout
   

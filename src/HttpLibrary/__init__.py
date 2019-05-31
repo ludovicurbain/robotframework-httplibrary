@@ -1,19 +1,20 @@
+import sys
+sys.path.append("c:\\swift_python3\\lib\\site-packages\\HttpLibrary\\")
+
 from robot.api import logger
 
 from base64 import b64encode
 from functools import wraps
-from urlparse import urlparse
+from urllib.parse import urlparse
 
 import livetest
 import json
 import jsonpointer
 import jsonpatch
-
-
 def load_json(json_string):
     try:
         return json.loads(json_string)
-    except ValueError, e:
+    except ValueError as e:
         raise ValueError("Could not parse '%s' as JSON: %s" % (json_string, e))
 
 
@@ -548,7 +549,7 @@ class HTTP:
 
         try:
             return json.dumps(data, ensure_ascii=False)
-        except ValueError, e:
+        except ValueError as e:
             raise ValueError(
                 "Could not stringify '%r' to JSON: %s" % (data, e))
 
