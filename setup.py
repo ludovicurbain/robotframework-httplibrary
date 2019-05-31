@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from distutils.core import setup
+from setuptools import setup
 
 CLASSIFIERS = """
 Programming Language :: Python
@@ -14,7 +14,7 @@ setup(
     name='robotframework-httplibrary3',
     version="0.5.0",
     description='Robot Framework keywords for HTTP requests',
-    long_description=long_description,
+    long_description="not working right now",
     author='Filip Noetzel',
     author_email='filip+rfhttplibrary@j03.de',
     url='https://github.com/peritus/robotframework-httplibrary',
