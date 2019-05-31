@@ -2,8 +2,10 @@
 .. image:: https://secure.travis-ci.org/peritus/robotframework-httplibrary.png?branch=master
   :target: http://travis-ci.org/peritus/robotframework-httplibrary
 
-robotframework-httplibrary
+robotframework-httplibrary 3
 --------------------------
+
+**robotframework-httplibrary3** is a fork of **robotframework-httplibrary** compatible with Python 3 (I hope)
 
 **robotframework-httplibrary** is a `Robot Framework
 <http://code.google.com/p/robotframework/>`_ test library for all your HTTP
@@ -14,16 +16,16 @@ underneath).
 Installation
 ------------
 
-You can install robotframework-httplibrary via `pip
+You can install robotframework-httplibrary3 via `pip
 <http://www.pip-installer.org/>`_::
 
-  pip install --upgrade robotframework-httplibrary
+  pip install --upgrade robotframework-httplibrary3
 
 Usage
 -----
 API documentation can be found at
-`http://peritus.github.com/robotframework-httplibrary/
-<http://peritus.github.com/robotframework-httplibrary/>`_, here is an example
+`http://peritus.github.com/robotframework-httplibrary3/
+<http://peritus.github.com/robotframework-httplibrary3/>`_, here is an example
 on how to use it:
 
 ============  ================
@@ -73,6 +75,10 @@ mostly a wrapper supposed to have a nice API)!
 
 Changelog
 ---------
+
+**v0.5.0**
+
+- Adapted for Python3
 
 **v0.4.2**
 
