@@ -5,7 +5,10 @@ from robot.api import logger
 
 from base64 import b64encode
 from functools import wraps
-from urllib.parse import urlparse
+try:
+    from urllib.parse import urlparse
+except ImportError:
+    from urlparse import urlparse
 
 import livetest
 import json

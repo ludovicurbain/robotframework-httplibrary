@@ -41,7 +41,10 @@ __version__ = '0.5'
 import sys
 import webtest
 import http.client
-from urllib.parse import urlparse
+try:
+    from urllib.parse import urlparse
+except ImportError:
+    from urlparse import urlparse
 from http.cookies import BaseCookie, CookieError
 from six.moves import http_cookiejar
 
