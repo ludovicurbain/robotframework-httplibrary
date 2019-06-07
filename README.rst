@@ -76,6 +76,10 @@ mostly a wrapper supposed to have a nice API)!
 Changelog
 ---------
 
+**v0.6.0**
+
+- Adapted for Python3 and 2
+
 **v0.5.0**
 
 - Adapted for Python3
